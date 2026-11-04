@@ -2,8 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.bitaim.carromaim">
 
-    <!-- Drawing over other apps (the aim overlay) -->
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
     <!-- Foreground services: overlay + screen capture -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
